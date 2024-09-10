@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d1c4e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #7e57c2;
+    color: white;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+main {
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f3e5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #512da8;
+}
+
+.garden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plant-card {
+    background-color: #e1bee7;
+    border: 2px dashed #512da8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.plant-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.plant-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.plant-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5e35b1;
+}
+
+.reminder {
+    margin-top: 15px;
+    font-style: italic;
+    color: #6a1b9a;
+}
+
+.album-link {
+    display: block;
+    margin-top: 10px;
+    color: #7e57c2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.album-link:hover {
+    text-decoration: underline;
+}
+
+
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.album-photo {
+    width: 150px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    border: 2px dotted #a080e0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
